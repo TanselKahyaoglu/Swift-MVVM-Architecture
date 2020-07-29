@@ -9,4 +9,4 @@
 import Foundation
 
 //This typealias helps us for communications between classes.
-typealias Handler<T> = ((T) -> Void)
+public typealias Handler<T> = ((T) -> Void)

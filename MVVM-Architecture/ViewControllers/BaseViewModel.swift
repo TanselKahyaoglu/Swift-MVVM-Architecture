@@ -8,20 +8,10 @@
 
 import Foundation
 
-class BaseViewModel: NSObject {
+open class BaseViewModel: NSObject {
 
-	required override init() {
+	required override public init() {
 		super.init()
-		print("ViewModel inited")
-	}
-
-	func pageOpened(result: Handler<Void>) {
-		//Page open function. This is an example of communication between view model and view controller.
-		print("Page Opened") 
-	}
-
-	deinit {
-		print("ViewModel deinited")
 	}
 
 }

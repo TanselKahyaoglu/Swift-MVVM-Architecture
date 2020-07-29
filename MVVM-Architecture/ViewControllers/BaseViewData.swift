@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol BaseViewData {
+public protocol BaseViewData {
     //this protocol will use for transferring data between viewcontrollers
 }

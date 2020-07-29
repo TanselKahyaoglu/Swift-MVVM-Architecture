@@ -9,18 +9,13 @@
 import Foundation
 import UIKit
 
-class BaseVC<T: BaseViewModel>: BaseNavigableVC {
+open class BaseVC<T: BaseViewModel>: BaseNavigableVC {
     
-	var viewModel: T? //View Model variable
+	open var viewModel: T? //View Model variable
 
-	required init?(coder: NSCoder) {
+	required public init?(coder: NSCoder) {
 		super.init(coder: coder)
-		print("ViewController inited")
 		viewModel = T() //init view model
-	}
-
-	deinit {
-		print("ViewController deinited")
 	}
 
 }

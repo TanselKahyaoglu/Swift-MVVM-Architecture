@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-class BaseNavigableVC: UIViewController {
+open class BaseNavigableVC: UIViewController {
     //For navigation and data transfer, we need this class.
     //It stores BaseViewData object.
 
-    var viewData: BaseViewData? //Data transfer variable
+    open var viewData: BaseViewData? //Data transfer variable
     
 }
