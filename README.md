@@ -77,7 +77,7 @@ I'm really open for contributing. We can make this project great together.
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GPL License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
